@@ -1,8 +1,8 @@
-<a href="https://lukaszkrzeminski.github.io/currency-converter/"><img width=250px src="img/logo.png" title="Currency Converter logo" alt="logo strony prostego przelicznika walut"></a>
+<a href="https://lukaszkrzeminski.github.io/currency-converter/"><img width=250px src="public/logo.png" title="Currency Converter logo" alt="logo strony prostego przelicznika walut"></a>
 
 # Simple Currency Converter
 
-## I've made a simple currency converter. It allows you to convert one currency into another. This time the whole app is created in React!
+## I've made a simple currency converter. It allows you to convert one currency into another. This time the whole app was created in React!
 
 ### Description
 The currency-converter is a simple page where I practiced JS Functions. You can chose one of the three available currencies and convert it into another one. For now the exchange rates are constants. This project show my previous currency-converter but this time I used React.
@@ -16,7 +16,7 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 5. In the violet window u can see the amount of money in chosen currency that you will get
 
 ### Preview
-![Preview GIF](../public/preview.gif)
+![Preview GIF](public/preview.gif)
 
 ### Technologies Used
 
