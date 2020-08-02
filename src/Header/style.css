@@ -6,3 +6,11 @@
     background-color: hsl(120, 100%, 50%);
     border-radius: 10px;
 }
+
+@media (max-width: 767px){
+    .header__title{
+        margin: 20px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+  }
