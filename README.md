@@ -1,3 +1,42 @@
+<a href="https://lukaszkrzeminski.github.io/currency-converter/"><img width=250px src="img/logo.png" title="Currency Converter logo" alt="logo strony prostego przelicznika walut"></a>
+
+# Simple Currency Converter
+
+## I've made a simple currency converter. It allows you to convert one currency into another. This time the whole app is created in React!
+
+### Description
+The currency-converter is a simple page where I practiced JS Functions. You can chose one of the three available currencies and convert it into another one. For now the exchange rates are constants. This project show my previous currency-converter but this time I used React.
+
+### How it works
+
+1. Chose the amount of money u want to convert
+2. Chose the currency u currently have
+3. Chose the currency u want to get
+4. Click the "Przelicz!" ("convert") button
+5. In the violet window u can see the amount of money in chosen currency that you will get
+
+### Preview
+![Preview GIF](../public/preview.gif)
+
+### Technologies Used
+
+- HTML
+- CSS
+- JS
+- BEM
+- React
+
+### Future work
+
+ - upgrading exchange rates to use a real time exchange rate
+ - *aaand thats everything I've come up for now :)*
+
+### Author
+Łukasz Krzemiński
+
+### Contact
+contact me at: [krzeminski.lukasz@interia.pl](krzeminski.lukasz@interia.pl)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -11,11 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -36,33 +70,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
