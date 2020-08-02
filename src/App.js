@@ -24,7 +24,7 @@ function App() {
         setFinalValue(finalValue => (PLNtoEUR * newUserValue).toFixed(2))
         break;
       case "PLNUSD":
-        setFinalValue(finalValue => (PLNtoEUR * newUserValue).toFixed(2))
+        setFinalValue(finalValue => (PLNtoUSD * newUserValue).toFixed(2))
         break;
       case "EURUSD":
         setFinalValue(finalValue => (EURtoUSD * newUserValue).toFixed(2))
