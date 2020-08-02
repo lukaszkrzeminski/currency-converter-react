@@ -27,7 +27,7 @@ const Form = () => (
         <label>
           <span className="form__labelText">Ile dostanę: </span>
           <input
-            className="form__field form__field--value form__field--final" type="number" readonly
+            className="form__field form__field--value form__field--final" type="number" readOnly
           />
         </label>
         <label>
