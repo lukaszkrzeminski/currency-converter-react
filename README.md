@@ -1,4 +1,4 @@
-<a href="https://lukaszkrzeminski.github.io/currency-converter/"><img width=250px src="public/logo.png" title="Currency Converter logo" alt="logo strony prostego przelicznika walut"></a>
+<a href="https://lukaszkrzeminski.github.io/currency-converter-react/"><img width=250px src="public/logo.png" title="Currency Converter logo" alt="logo strony prostego przelicznika walut"></a>
 
 # Simple Currency Converter
 
