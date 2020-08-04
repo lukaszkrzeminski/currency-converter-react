@@ -4,6 +4,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Form from "./Form";
 import Footer from "./Footer";
+import Timer from "./Timer";
 
 function App() {
   const [newUserValue, setNewUserValue] = useState("");
@@ -45,6 +46,7 @@ function App() {
 
   return (
     <Background>
+      <Timer />
       <Header title="Przelicz zanim wyjedziesz na zagraniczne wakacje!" />
       <Main>
         <Form
