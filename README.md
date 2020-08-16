@@ -26,6 +26,10 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 - BEM
 - React
 
+### Added features
+
+ - added clock which displays current date and time
+
 ### Future work
 
  - upgrading exchange rates to use a real time exchange rate
