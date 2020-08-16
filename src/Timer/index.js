@@ -3,11 +3,19 @@ import "./style.css";
 
 const Timer = () => {
 
-    const [currentDate, setCurrentDate] = useState();
+    const [currentDate, setCurrentDate] = useState(new Date());
 
     useEffect(() => {
         setInterval(() => {
-            const newDate = new Date().toLocaleString(
+                setCurrentDate(new Date());
+        }, 1000);
+    }, []);
+
+    return (
+        <p className="header__timer">
+            Dzisiaj jest
+            {" "}
+            {currentDate.toLocaleString(
                 'pl',
                 {
                     month: "long",
@@ -17,13 +25,7 @@ const Timer = () => {
                     minute: "numeric",
                     second: "numeric",
                 })
-            setCurrentDate(newDate);
-        }, 1000);
-    }, []);
-
-    return (
-        <p className="header__timer">
-            Dzisiaj jest {currentDate}
+            }
         </p>
     )
 };
