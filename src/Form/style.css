@@ -23,16 +23,15 @@
     border-radius: 10px;
     background-color: hsl(120, 100%, 80%);
     border: 2px solid rgb(124, 124, 124);
+    max-width: 200px;
 }
 
 .form__field--value{
     width: 100%;
-    max-width: 200px;
 }
 
 .form__field--select{
     width: 100%;
-    max-width: 100px;
 }
 
 .form__field--final{
