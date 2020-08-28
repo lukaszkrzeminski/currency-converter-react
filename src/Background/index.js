@@ -1,10 +1,10 @@
 import React from 'react';
-import "./style.css";
+import { BackgroundImage } from "./styled";
 
 const Background = (props) => (
-    <div className="background">
+    <BackgroundImage>
         {props.children};
-    </div>
+    </BackgroundImage>
 )
 
 export default Background;

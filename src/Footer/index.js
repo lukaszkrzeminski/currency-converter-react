@@ -1,8 +1,8 @@
 import React from 'react';
-import "./style.css";
+import { FooterText } from "./styled";
 
 const Footer = () => (
-    <footer className="footer">Strona wykonana przez Łukasza Krzemińskiego</footer>
+    <FooterText>Strona wykonana przez Łukasza Krzemińskiego</FooterText>
 )
 
 export default Footer;

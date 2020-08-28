@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "./style.css";
+import { TimerHeader } from "./styled"
 
 const Timer = () => {
 
@@ -12,7 +12,7 @@ const Timer = () => {
     }, []);
 
     return (
-        <p className="header__timer">
+        <TimerHeader>
             Dzisiaj jest
             {" "}
             {currentDate.toLocaleString(
@@ -26,7 +26,7 @@ const Timer = () => {
                     second: "numeric",
                 })
             }
-        </p>
+        </TimerHeader>
     )
 };
 

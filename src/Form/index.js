@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css";
+import { Fieldset, Legend, LabelText, InputField, Button } from "./styled";
 
 const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, setStartCurrency, finalCurrency, setFinalCurrency, finalValue }) => {
 
@@ -10,26 +10,24 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
 
   return (
     <form onSubmit={onFormSubmit}>
-      <fieldset className="form__fieldset">
-        <legend className="form__legend">
-          Przelicznik Walut
-      </legend>
+      <Fieldset>
+        <Legend>Przelicznik Walut</Legend>
         <p>
           <label>
-            <span className="form__labelText">Ile chcę wymienić: </span>
-            <input
+            <LabelText>Ile chcę wymienić: </LabelText>
+            <InputField
+              containsValue
               value={newUserValue}
               onChange={(event) => setNewUserValue(event.target.value)}
-              className="form__field form__field--value" 
               type="number" 
               step="0.01" 
               min="0" 
               required
-            />
+            ></InputField>
           </label>
           <label>
-            <select 
-            className="form__field form__field--select" 
+            <InputField 
+            select 
             name="userCurrency"
             value={startCurrency}
             onChange={(event) => setStartCurrency(event.target.value)}
@@ -37,36 +35,37 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
               <option value="PLN">PLN</option>
               <option value="EUR">EUR</option>
               <option value="USD">USD</option>
-            </select>
+            </InputField>
           </label>
         </p>
 
         <p>
           <label>
-            <span className="form__labelText">Ile dostanę: </span>
-            <input
-              className="form__field form__field--value form__field--final" 
+            <LabelText>Ile dostanę: </LabelText>
+            <InputField
+              containsValue
+              final 
               type="number"
               value={finalValue}
               readOnly
             />
           </label>
           <label>
-            <select 
-            className="form__field form__field--select" 
-            name="chosenCurrency"
-            value={finalCurrency}
-            onChange={(event) => setFinalCurrency(event.target.value)} 
-            required>
-              <option value="PLN">PLN</option>
-              <option value="EUR">EUR</option>
-              <option value="USD">USD</option>
-            </select>
+            <InputField 
+              select
+              name="chosenCurrency"
+              value={finalCurrency}
+              onChange={(event) => setFinalCurrency(event.target.value)} 
+              required>
+               <option value="PLN">PLN</option>
+                <option value="EUR">EUR</option>
+               <option value="USD">USD</option>
+            </InputField>
           </label>
         </p>
-      </fieldset>
+      </Fieldset>
       <p>
-        <button className="form__button">Przelicz</button>
+        <Button>Przelicz</Button>
       </p>
     </form>
   )
