@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fieldset, Legend, LabelText, InputField, Button } from "./styled";
+import { Fieldset, Legend, LabelText, InputField, SelectField, Button } from "./styled";
 
 const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, setStartCurrency, finalCurrency, setFinalCurrency, finalValue }) => {
 
@@ -23,11 +23,10 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
               step="0.01" 
               min="0" 
               required
-            ></InputField>
+            />
           </label>
           <label>
-            <InputField 
-            select 
+            <SelectField 
             name="userCurrency"
             value={startCurrency}
             onChange={(event) => setStartCurrency(event.target.value)}
@@ -35,7 +34,7 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
               <option value="PLN">PLN</option>
               <option value="EUR">EUR</option>
               <option value="USD">USD</option>
-            </InputField>
+            </SelectField>
           </label>
         </p>
 
@@ -44,23 +43,22 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
             <LabelText>Ile dostanę: </LabelText>
             <InputField
               containsValue
-              final 
+              final
               type="number"
               value={finalValue}
               readOnly
             />
           </label>
           <label>
-            <InputField 
-              select
-              name="chosenCurrency"
-              value={finalCurrency}
-              onChange={(event) => setFinalCurrency(event.target.value)} 
-              required>
-               <option value="PLN">PLN</option>
-                <option value="EUR">EUR</option>
-               <option value="USD">USD</option>
-            </InputField>
+            <SelectField 
+            name="chosenCurrency"
+            value={finalCurrency}
+            onChange={(event) => setFinalCurrency(event.target.value)} 
+            required>
+              <option value="PLN">PLN</option>
+              <option value="EUR">EUR</option>
+              <option value="USD">USD</option>
+            </SelectField>
           </label>
         </p>
       </Fieldset>

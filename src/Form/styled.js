@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Fieldset = styled.fieldset`
     border: 1px solid hsl(120, 100%, 30%);
@@ -26,16 +26,21 @@ export const InputField = styled.input`
     background-color: hsl(120, 100%, 80%);
     border: 2px solid rgb(124, 124, 124);
     max-width: 200px;
+    width: 100%;
 
-    ${({containsValue}) => containsValue && css`
-        width: 100%;
-    `}
-    ${({select}) => select && css`
-        width: 100%;
-    `}
     ${({final}) => final && css`
         background-color: hsl(260, 100%, 80%);
     `}
+`;
+
+export const SelectField = styled.select`
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(120, 100%, 80%);
+    border: 2px solid rgb(124, 124, 124);
+    max-width: 200px;
+    width: 100%;
 `;
 
 export const Button = styled.button`
