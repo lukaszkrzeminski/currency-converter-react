@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/currency-converter-react/static/css/main.abfc880b.chunk.css",
-    "main.js": "/currency-converter-react/static/js/main.74b6c463.chunk.js",
-    "main.js.map": "/currency-converter-react/static/js/main.74b6c463.chunk.js.map",
+    "main.css": "/currency-converter-react/static/css/main.dbeb917f.chunk.css",
+    "main.js": "/currency-converter-react/static/js/main.ef81ccd0.chunk.js",
+    "main.js.map": "/currency-converter-react/static/js/main.ef81ccd0.chunk.js.map",
     "runtime-main.js": "/currency-converter-react/static/js/runtime-main.2415008a.js",
     "runtime-main.js.map": "/currency-converter-react/static/js/runtime-main.2415008a.js.map",
-    "static/js/2.59662f4b.chunk.js": "/currency-converter-react/static/js/2.59662f4b.chunk.js",
-    "static/js/2.59662f4b.chunk.js.map": "/currency-converter-react/static/js/2.59662f4b.chunk.js.map",
+    "static/js/2.b5da22ea.chunk.js": "/currency-converter-react/static/js/2.b5da22ea.chunk.js",
+    "static/js/2.b5da22ea.chunk.js.map": "/currency-converter-react/static/js/2.b5da22ea.chunk.js.map",
     "index.html": "/currency-converter-react/index.html",
-    "precache-manifest.f1e7648d73be23cf29f43a8299c72c3e.js": "/currency-converter-react/precache-manifest.f1e7648d73be23cf29f43a8299c72c3e.js",
+    "precache-manifest.6fe00cd15d40082bd7ad3558f9e0cceb.js": "/currency-converter-react/precache-manifest.6fe00cd15d40082bd7ad3558f9e0cceb.js",
     "service-worker.js": "/currency-converter-react/service-worker.js",
-    "static/css/main.abfc880b.chunk.css.map": "/currency-converter-react/static/css/main.abfc880b.chunk.css.map",
-    "static/js/2.59662f4b.chunk.js.LICENSE.txt": "/currency-converter-react/static/js/2.59662f4b.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/currency-converter-react/static/media/background.901ede01.jpg"
+    "static/css/main.dbeb917f.chunk.css.map": "/currency-converter-react/static/css/main.dbeb917f.chunk.css.map",
+    "static/js/2.b5da22ea.chunk.js.LICENSE.txt": "/currency-converter-react/static/js/2.b5da22ea.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/currency-converter-react/static/media/background.901ede01.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2415008a.js",
-    "static/js/2.59662f4b.chunk.js",
-    "static/css/main.abfc880b.chunk.css",
-    "static/js/main.74b6c463.chunk.js"
+    "static/js/2.b5da22ea.chunk.js",
+    "static/css/main.dbeb917f.chunk.css",
+    "static/js/main.ef81ccd0.chunk.js"
   ]
 }
