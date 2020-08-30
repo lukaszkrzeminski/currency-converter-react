@@ -1,15 +1,15 @@
 import styled, { css } from "styled-components";
 
 export const Fieldset = styled.fieldset`
-    border: 1px solid hsl(120, 100%, 30%);
-    background-color: hsl(0, 0%, 80%);
+    border: 1px solid ${({ theme }) => theme.color.darkGreen};
+    background-color: ${({ theme }) => theme.color.silver};
 `;
 
 export const Legend = styled.legend`
-    background-color: hsl(120, 100%, 50%);
+    background-color: ${({ theme }) => theme.color.green};
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid rgb(124, 124, 124);
+    border: 2px solid ${({ theme }) => theme.color.grey};
 `;
 
 export const LabelText = styled.span`
@@ -23,13 +23,13 @@ export const InputField = styled.input`
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: hsl(120, 100%, 80%);
-    border: 2px solid rgb(124, 124, 124);
+    background-color: ${({ theme }) => theme.color.mintGreen};
+    border: 2px solid ${({ theme }) => theme.color.grey};
     max-width: 200px;
     width: 100%;
 
     ${({final}) => final && css`
-        background-color: hsl(260, 100%, 80%);
+        background-color: ${({ theme }) => theme.color.mauve};
     `}
 `;
 
@@ -37,8 +37,8 @@ export const SelectField = styled.select`
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: hsl(120, 100%, 80%);
-    border: 2px solid rgb(124, 124, 124);
+    background-color: ${({ theme }) => theme.color.mintGreen};
+    border: 2px solid ${({ theme }) => theme.color.grey};
     max-width: 200px;
     width: 100%;
 `;
@@ -46,14 +46,14 @@ export const SelectField = styled.select`
 export const Button = styled.button`
     padding: 10px;
     width: 100%;
-    background-color: hsl(120, 100%, 20%);
-    color: white;
+    background-color: ${({ theme }) => theme.color.darkGreen};
+    color: ${({ theme }) => theme.color.white};
     border-radius: 10px;
 
     &:hover {
-        background-color: hsl(120, 100%, 30%);
+        filter: brightness(110%);
     }
     &:active {
-        background-color: hsl(120, 100%, 40%);
+        filter: brightness(120%);
     }
 `;
