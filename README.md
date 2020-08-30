@@ -25,6 +25,8 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 - JS
 - BEM
 - React
+- Styled Components
+- Custom hooks
 
 ### Added features
 
