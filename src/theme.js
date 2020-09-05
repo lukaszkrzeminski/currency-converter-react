@@ -7,6 +7,8 @@ export const theme = {
         silver: "#ccc",
         grey: "#7c7c7c",
         mauve: "#bb99ff",
+        pastelGreen: "#90A793",
+        black: "#000",
     },
     breakpoint: {
         mobileMax: 767,

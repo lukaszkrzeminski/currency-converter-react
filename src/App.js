@@ -1,10 +1,19 @@
 import React, {useState} from 'react';
 import Background from "./Background";
+import Container from "./Container";
 import Header from "./Header";
 import Main from "./Main";
 import Form from "./Form";
 import Footer from "./Footer";
 import Timer from "./Timer";
+
+//fetch("https://api.exchangeratesapi.io/latest?base=PLN")
+// .then(response => response.json())
+// .then(data => console.log(data))
+// .catch(error => console.error("Something bad happened!", error));
+
+
+
 
 function App() {
   const [newUserValue, setNewUserValue] = useState("");
@@ -46,20 +55,22 @@ function App() {
 
   return (
     <Background>
-      <Timer />
-      <Header title="Przelicz zanim wyjedziesz na zagraniczne wakacje!" />
-      <Main>
-        <Form
-        newUserValue={newUserValue}
-        setNewUserValue={setNewUserValue}
-        startCurrency={startCurrency}
-        setStartCurrency={setStartCurrency}
-        finalCurrency={finalCurrency}
-        setFinalCurrency={setFinalCurrency}
-        finalValue={finalValue}
-        setFinalValue={setFinalValue}
-        computeResult={computeResult}/>
-      </Main>
+        <Container>
+          <Timer />
+          <Header title="Przelicz zanim wyjedziesz na zagraniczne wakacje!" />
+          <Main>
+            <Form
+            newUserValue={newUserValue}
+            setNewUserValue={setNewUserValue}
+            startCurrency={startCurrency}
+            setStartCurrency={setStartCurrency}
+            finalCurrency={finalCurrency}
+            setFinalCurrency={setFinalCurrency}
+            finalValue={finalValue}
+            setFinalValue={setFinalValue}
+            computeResult={computeResult}/>
+          </Main>
+        </Container>
       <Footer />
     </Background>
   );

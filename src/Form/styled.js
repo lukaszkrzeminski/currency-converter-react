@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const Fieldset = styled.fieldset`
     border: 1px solid ${({ theme }) => theme.color.darkGreen};
     background-color: ${({ theme }) => theme.color.silver};
+    color: ${({ theme }) => theme.color.white};
 `;
 
 export const Legend = styled.legend`
@@ -17,6 +18,7 @@ export const LabelText = styled.span`
     width: 200px;
     max-width: 100%;
     display: inline-block;
+    color: ${({ theme }) => theme.color.black};
 `;
 
 export const InputField = styled.input`
@@ -56,4 +58,12 @@ export const Button = styled.button`
     &:active {
         filter: brightness(120%);
     }
+`;
+
+export const Description = styled.p`
+    
+    ${({description}) => description && css`
+        text-align: center;
+        color: ${({ theme }) => theme.color.white};
+    `}
 `;

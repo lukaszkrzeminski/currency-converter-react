@@ -7,6 +7,7 @@ export const Title = styled.h1`
     color: ${({ theme }) => theme.color.white};
     background-color: ${({ theme }) => theme.color.green};
     border-radius: 10px;
+    border solid 1px ${({ theme }) => theme.color.grey};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
         margin: 20px auto;

@@ -1,5 +1,9 @@
 import React from 'react';
-import { Fieldset, Legend, LabelText, InputField, SelectField, Button } from "./styled";
+import { Fieldset, Legend, LabelText, InputField, SelectField, Button, Description } from "./styled";
+import jsonData from "../data.json"
+
+const tmpData = jsonData[0];
+console.log(tmpData);
 
 const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, setStartCurrency, finalCurrency, setFinalCurrency, finalValue }) => {
 
@@ -65,6 +69,10 @@ const Form = ({ computeResult, newUserValue, setNewUserValue, startCurrency, set
       <p>
         <Button>Przelicz</Button>
       </p>
+      <Description description>
+        Kursy walut pobierane są z Europejskiego Banku Centralnego.<br /> 
+        Aktualne na dzień {tmpData.date}
+      </Description>
     </form>
   )
 }
