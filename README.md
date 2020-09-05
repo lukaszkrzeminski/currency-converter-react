@@ -27,15 +27,12 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 - React
 - Styled Components
 - Custom hooks
+- fetch API
 
 ### Added features
 
  - added clock which displays current date and time
-
-### Future work
-
- - upgrading exchange rates to use a real time exchange rate
- - *aaand thats everything I've come up for now :)*
+ - exchange rates used from https://exchangeratesapi.io/
 
 ### Author
 Łukasz Krzemiński
