@@ -3,7 +3,7 @@ import { BackgroundImage } from "./styled";
 
 const Background = (props) => (
     <BackgroundImage img={"./img/background.jpg"}>
-        {props.children};
+        {props.children}
     </BackgroundImage>
 )
 

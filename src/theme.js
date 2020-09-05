@@ -9,6 +9,7 @@ export const theme = {
         mauve: "#bb99ff",
         pastelGreen: "#90A793",
         black: "#000",
+        cardinal: "#D42527",
     },
     breakpoint: {
         mobileMax: 767,

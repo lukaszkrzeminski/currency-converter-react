@@ -4,7 +4,7 @@ import { Wrapper} from "./styled";
 const Container = (props) => {
     return (
         <Wrapper>
-            {props.children};
+            {props.children}
         </Wrapper>
     )
 }

@@ -67,3 +67,13 @@ export const Description = styled.p`
         color: ${({ theme }) => theme.color.white};
     `}
 `;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.color.black};
+    text-align: center;
+`;
+
+export const Failure = styled.p`
+    color: ${({ theme }) => theme.color.cardinal};
+    text-align: center;
+`;
