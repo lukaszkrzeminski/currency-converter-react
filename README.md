@@ -5,7 +5,7 @@
 ## I've made a simple currency converter. It allows you to convert one currency into another. This time the whole app was created in React!
 
 ### Description
-The currency-converter is a simple page where I practiced JS Functions. You can chose one of the three available currencies and convert it into another one. For now the exchange rates are constants. This project show my previous currency-converter but this time I used React.
+The currency-converter is a simple page where I practiced JS Functions. You can chose one of available currencies and convert it into another one. The exchange rates are fetched from API using European Central Bank rates. This project show my previous currency-converter but this time I used React.
 
 ### How it works
 
