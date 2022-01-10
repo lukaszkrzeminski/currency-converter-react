@@ -33,7 +33,7 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 ### Added features
 
  - added clock which displays current date and time
- - exchange rates used from https://exchangeratesapi.io/
+ - exchange rates used from https://exchangerate.host/
 
 ### Author
 Łukasz Krzemiński

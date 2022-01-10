@@ -8,7 +8,7 @@ export const useRatesData = () => {
       useEffect(() => {
         const fetchRates = async () => {
           try {
-            const response = await fetch("http://api.exchangeratesapi.io/v1/latest?access_key=b6f2f0268d043c32020de8e4126c5dc6");
+            const response = await fetch("https://api.exchangerate.host/latest&base=PLN");
       
             if(!response.ok) {
               throw new Error(response.statustext);
