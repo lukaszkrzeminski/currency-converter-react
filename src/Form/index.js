@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Fieldset, Legend, LabelText, InputField, SelectField, Button, Description, Loading, Failure } from "./styled";
+import Loader from "../Loader"
 import { useRatesData } from "./useRatesData";
 
 const Form = () => {
@@ -26,6 +27,7 @@ const Form = () => {
     ratesData.state === "loading"
       ? (
         <Loading>
+          <Loader />
           Trwa pobieranie kursów walut z Europejskiego Banku Centralnego <br /> to moża zająć chwilkę ;)
         </Loading>
       )
