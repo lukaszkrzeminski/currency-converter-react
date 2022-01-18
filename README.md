@@ -34,6 +34,7 @@ The currency-converter is a simple page where I practiced JS Functions. You can 
 
  - added clock which displays current date and time
  - exchange rates used from https://exchangerate.host/
+ - added loader animation to the loading screen
 
 ### Author
 Łukasz Krzemiński
